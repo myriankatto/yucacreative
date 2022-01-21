@@ -1,0 +1,41 @@
+{
+  "../components/Footer.js -> ../components/Button": {
+    "id": "./components/Button.js",
+    "files": [
+      "static/chunks/components_Button_js.js"
+    ]
+  },
+  "../node_modules/next/dist/client/next-dev.js -> ./dev/noop": {
+    "id": "./node_modules/next/dist/client/dev/noop.js",
+    "files": [
+      "static/chunks/node_modules_next_dist_client_dev_noop_js.js"
+    ]
+  },
+  "_app.js -> ../components/Nav": {
+    "id": "./components/Nav.js",
+    "files": [
+      "static/chunks/vendors-node_modules_next_link_js-node_modules_react-icons_fa_index_esm_js-node_modules_react-169b12.js",
+      "static/chunks/components_Nav_js.js"
+    ]
+  },
+  "index.js -> ../components/About": {
+    "id": "./components/About.js",
+    "files": [
+      "static/chunks/vendors-node_modules_next_image_js.js",
+      "static/chunks/components_About_js.js"
+    ]
+  },
+  "index.js -> ../components/Footer": {
+    "id": "./components/Footer.js",
+    "files": [
+      "static/chunks/components_Footer_js.js"
+    ]
+  },
+  "index.js -> ../components/Header": {
+    "id": "./components/Header.js",
+    "files": [
+      "static/chunks/vendors-node_modules_react-text-scrambler_lib_index_js.js",
+      "static/chunks/components_Header_js.js"
+    ]
+  }
+}
