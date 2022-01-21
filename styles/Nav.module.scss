@@ -1,0 +1,57 @@
+.nav {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1em 6em;
+
+    svg {
+      &:hover {
+        opacity: 0.8;
+        transition: 0.3 ease-in all;
+      }
+    }
+    .logo {
+      font-family: 'Noe Display Medium';
+      font-size: 1.2em;
+      &:hover {
+        opacity: 0.8;
+        transition: 0.3 ease-in all;
+      }
+    }
+    .theme {
+      cursor: pointer;
+    }
+    .links {
+      cursor: pointer;
+
+      svg {
+        margin-left: 1.5em;
+      }
+    }
+  }
+}
+
+//big screens
+@media screen and (min-width: 1500px) {
+  .nav {
+    .container {
+      padding: 2em 10em;
+    }
+  }
+}
+
+//mobile
+@media screen and (max-width: 768px) {
+  .nav {
+    .container {
+      padding: 1em 1em;
+  }
+}
+}

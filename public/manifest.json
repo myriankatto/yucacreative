@@ -1,0 +1,22 @@
+{
+  "name": "Myrian Katto",
+  "short_name": "Myrian",
+  "start_url": "myriankatto.com",
+  "display": "standalone",
+  "background_color": "#232323",
+  "theme_color": "#232323",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/png",
+      "sizes": "42x42"
+    },
+    {
+      "src": "/images/icon_512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}
